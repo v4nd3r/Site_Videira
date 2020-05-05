@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Banner from './Banner';
-import QuemSomos from './QuemSomos';
-import OndeEstamos from './OndeEstamos';
-import Videiranews from './Videiranews';
-import Esbocos from './Esbocos';
-import Rodape from './Rodape';
+import Navbar from './site/Navbar';
+import Banner from './site/Banner';
+import QuemSomos from './site/QuemSomos';
+import OndeEstamos from './site/OndeEstamos';
+import Videiranews from './site/Videiranews';
+import Esbocos from './site/Esbocos';
+import Rodape from './site/Rodape';
 
 function App() {
   return (
