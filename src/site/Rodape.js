@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logoVideiraBranca from '../Content/images/logo-videira-branca.png';
+
 function Rodape(props) {
   return (
     <footer className="ftco-footer ftco-bg-dark ftco-section">
@@ -32,7 +34,7 @@ function Rodape(props) {
           <div className="col-md">
             <div className="ftco-footer-widget mb-4">
               <h2 className="">
-                  <img src="Content/images/logo-videira-branca.png" height="60px" />
+                  <img src={logoVideiraBranca} height="60px" />
               </h2>
               <ul className="ftco-footer-social list-unstyled float-md-left float-lft">
                   <li className="ftco-animate"><a href="https://www.facebook.com/videiravitoriaes/" target="_blank"><span className="icon-facebook"></span></a></li>

@@ -67,3 +67,24 @@
         width: 30vw;
     }
 }
+
+@media (max-width: 991.98px){
+    .ftco-navbar-light {
+        background: #fff !important;
+    }
+}
+
+.ftco-navbar-light .navbar-toggler  {
+    color: rgba(0, 0, 0, 0.5) !important;
+    border-color: transparent !important;
+}
+
+.ftco-navbar-light .nav-link {
+    padding-top: 0.9rem !important;
+    padding-bottom: 0.9rem !important;
+    color: #000 !important;
+}
+
+.navbar-toggler {
+    outline: 0 !important;
+}

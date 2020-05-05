@@ -1,11 +1,13 @@
 import React from 'react';
 
+import imagemQuemSomos from '../Content/images/event-4.jpg';
+
 function QuemSomos(props) {
   return (
         <section className="ftco-section-2" id="divQuemSomos">
             <div className="container-fluid">
                 <div className="section-2-blocks-wrapper d-flex row no-gutters">
-                <div className="img col-md-6 ftco-animate" style={{backgroundImage: "url('Content/images/event-4.jpg')"}}></div>
+                <div className="img col-md-6 ftco-animate" style={{backgroundImage: "url('"+ imagemQuemSomos +"')"}}></div>
                 <div className="text col-md-6 ftco-animate">
                     <div className="text-inner align-self-start heading-section">
                     <h2>Quem somos</h2>

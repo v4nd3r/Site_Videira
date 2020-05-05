@@ -10,7 +10,7 @@ function EsbocoCelula(props) {
     return (
         <div className="col-md-4 ftco-animate">
             <div className="blog-entry">
-                <a href={"Content/Arquivos/"+ nomeArquivo} target="_blank" className="block-20" style={{backgroundImage: "url('Content/images/"+ nomeImagem +"')"}}>
+                <a href={"./Content/Arquivos/"+ nomeArquivo} target="_blank" className="block-20" style={{backgroundImage: "url('./Content/images/cultos/"+ nomeImagem +"')"}}>
                 </a>
                 <div className="text p-4 d-block">
                     <div className="meta">
