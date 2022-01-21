@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Banner from './Banner';
 import QuemSomos from './QuemSomos';
 import OndeEstamos from './OndeEstamos';
-import Videiranews from './Videiranews';
+import VideiraNews from './VideiraNews';
 import Esbocos from './Esbocos';
 import Rodape from './Rodape';
 
@@ -27,7 +27,7 @@ function Home () {
           <Banner />
           <QuemSomos />
           <OndeEstamos />
-          <Videiranews />
+          <VideiraNews />
           <Esbocos />
           <Rodape />
         </div>
