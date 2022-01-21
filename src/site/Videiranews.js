@@ -2,16 +2,21 @@ import React from 'react';
 import YouTube from '@u-wave/react-youtube';
 import Axios from 'axios';
 
-async function VideiraNews(props) {
+function VideiraNews(props) {
 
-    const youtubeKeyApi = "";
-    const apiYoutube = Axios.create({
-        baseURL: 'https://www.googleapis.com/youtube/v3/activities'
-    });
+    // const youtubeKeyApi = "2ae6743fc243a6ce26dbe414bf2905d67c893b6f";
+    // const apiYoutube = Axios.create({
+    //     baseURL: 'https://www.googleapis.com/youtube/v3/',
+    //     params: {
+    //         part: 'snippet',
+    //         maxResults: 5,
+    //         key: youtubeKeyApi,
+    //     },
+    // });
 
-    const response = await apiYoutube.get('/devs', {
-        headers: { user: match.params.id }
-    });
+    // const response = await apiYoutube.get('/devs', {
+    //     headers: { user: "123" }
+    // });
 
     return (
         <section className="ftco-section" id="divVideiraNews">
@@ -22,14 +27,20 @@ async function VideiraNews(props) {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 ftco-animate marginCenter">
+                    <div className="marginCenter">
                         <div className="sermons">
-                            <YouTube
-                                id="iframeVN"
-                                video="AxtjV42hmsE"
+                            {/* <YouTube
+                                video="gSdJQN_GEFo"
+                                width={640}
+                                height={480}
                                 autoplay={false}
-                                allowFullScreen={true}
-                            />
+                                controls={false}
+                                suggestedQuality="auto"
+                                volume={1}
+                                paused={true}
+                            /> */}
+                            <iframe width="640" height="480" src="https://www.youtube.com/embed/gSdJQN_GEFo" title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

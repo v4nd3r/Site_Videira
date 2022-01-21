@@ -8,7 +8,7 @@ function EsbocoCelula(props) {
     var tituloEsboco = props.tituloEsboco;
 
     return (
-        <div className="col-md-4 ftco-animate">
+        <div className="col-md-4">
             <div className="blog-entry">
                 <a href={"./Content/Arquivos/"+ nomeArquivo} target="_blank" className="block-20" style={{backgroundImage: "url('./Content/images/cultos/"+ nomeImagem +"')"}}>
                 </a>

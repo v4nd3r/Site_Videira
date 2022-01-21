@@ -6,7 +6,7 @@ function OndeEstamos(props) {
         <div className="parallax-img d-flex align-items-center">
             <div className="marginCenter">
                 <div className="row d-flex justify-content-center">
-                <div className="col-md-12 text-center heading-section ftco-animate">
+                <div className="col-md-12 text-center heading-section">
                     <h2>Onde estamos</h2>
                     <span className="subheading"><b>Localização das células e prédios</b></span>
                     <p className="mt-3">

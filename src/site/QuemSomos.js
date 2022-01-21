@@ -7,8 +7,8 @@ function QuemSomos(props) {
         <section className="ftco-section-2" id="divQuemSomos">
             <div className="container-fluid">
                 <div className="section-2-blocks-wrapper d-flex row no-gutters">
-                <div className="img col-md-6 ftco-animate" style={{backgroundImage: "url('"+ imagemQuemSomos +"')"}}></div>
-                <div className="text col-md-6 ftco-animate">
+                <div className="img col-md-6" style={{backgroundImage: "url('"+ imagemQuemSomos +"')"}}></div>
+                <div className="text col-md-6">
                     <div className="text-inner align-self-start heading-section">
                     <h2>Quem somos</h2>
                     <span className="subheading">Nossa visão</span>

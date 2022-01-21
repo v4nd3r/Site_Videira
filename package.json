@@ -4,13 +4,13 @@
   "private": true,
   "dependencies": {
     "@u-wave/react-youtube": "^0.7.1",
-    "axios": "^0.19.2",
+    "axios": "^0.25.0",
     "bootstrap": "^4.4.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.0",
     "react-youtube": "^7.11.2"
   },
   "scripts": {
